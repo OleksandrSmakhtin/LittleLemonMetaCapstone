@@ -23,6 +23,8 @@
 		44DBF5862A509FC600A71EE6 /* FetchedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5852A509FC600A71EE6 /* FetchedObject.swift */; };
 		44DBF5882A50A00600A71EE6 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5872A50A00600A71EE6 /* FoodItem.swift */; };
 		44DBF58A2A50A04700A71EE6 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5892A50A04700A71EE6 /* DetailItem.swift */; };
+		44DBF58C2A50A09800A71EE6 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF58B2A50A09800A71EE6 /* MenuItem.swift */; };
+		44DBF58E2A50A0AE00A71EE6 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF58D2A50A0AE00A71EE6 /* MenuList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		44DBF5852A509FC600A71EE6 /* FetchedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObject.swift; sourceTree = "<group>"; };
 		44DBF5872A50A00600A71EE6 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		44DBF5892A50A04700A71EE6 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		44DBF58B2A50A09800A71EE6 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		44DBF58D2A50A0AE00A71EE6 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		44DBF5742A509CBA00A71EE6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				44DBF58B2A50A09800A71EE6 /* MenuItem.swift */,
+				44DBF58D2A50A0AE00A71EE6 /* MenuList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +228,8 @@
 				44DBF56C2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld in Sources */,
 				44DBF5842A509EE200A71EE6 /* Menu.swift in Sources */,
 				44DBF5622A50976400A71EE6 /* Onboarding.swift in Sources */,
+				44DBF58C2A50A09800A71EE6 /* MenuItem.swift in Sources */,
+				44DBF58E2A50A0AE00A71EE6 /* MenuList.swift in Sources */,
 				44DBF57B2A509DB200A71EE6 /* Hero.swift in Sources */,
 				44DBF5882A50A00600A71EE6 /* FoodItem.swift in Sources */,
 				44DBF5792A509DA000A71EE6 /* Header.swift in Sources */,
