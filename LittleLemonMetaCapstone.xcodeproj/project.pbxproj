@@ -25,6 +25,7 @@
 		44DBF58A2A50A04700A71EE6 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5892A50A04700A71EE6 /* DetailItem.swift */; };
 		44DBF58C2A50A09800A71EE6 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF58B2A50A09800A71EE6 /* MenuItem.swift */; };
 		44DBF58E2A50A0AE00A71EE6 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF58D2A50A0AE00A71EE6 /* MenuList.swift */; };
+		44DBF5942A50A18F00A71EE6 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5932A50A18F00A71EE6 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		44DBF5892A50A04700A71EE6 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		44DBF58B2A50A09800A71EE6 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		44DBF58D2A50A0AE00A71EE6 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		44DBF5932A50A18F00A71EE6 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				44DBF5832A509EE200A71EE6 /* Menu.swift */,
 				44DBF5872A50A00600A71EE6 /* FoodItem.swift */,
 				44DBF5892A50A04700A71EE6 /* DetailItem.swift */,
+				44DBF5932A50A18F00A71EE6 /* MainScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				44DBF5692A50976500A71EE6 /* Persistence.swift in Sources */,
 				44DBF58A2A50A04700A71EE6 /* DetailItem.swift in Sources */,
 				44DBF56C2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld in Sources */,
+				44DBF5942A50A18F00A71EE6 /* MainScreen.swift in Sources */,
 				44DBF5842A509EE200A71EE6 /* Menu.swift in Sources */,
 				44DBF5622A50976400A71EE6 /* Onboarding.swift in Sources */,
 				44DBF58C2A50A09800A71EE6 /* MenuItem.swift in Sources */,
