@@ -14,6 +14,15 @@
 		44DBF5692A50976500A71EE6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5682A50976500A71EE6 /* Persistence.swift */; };
 		44DBF56C2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF56A2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld */; };
 		44DBF5772A509CE100A71EE6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5762A509CE100A71EE6 /* ViewModel.swift */; };
+		44DBF5792A509DA000A71EE6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5782A509DA000A71EE6 /* Header.swift */; };
+		44DBF57B2A509DB200A71EE6 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF57A2A509DB200A71EE6 /* Hero.swift */; };
+		44DBF57D2A509DBA00A71EE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF57C2A509DBA00A71EE6 /* Home.swift */; };
+		44DBF5802A509DE700A71EE6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF57F2A509DE700A71EE6 /* Styles.swift */; };
+		44DBF5822A509E3800A71EE6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5812A509E3800A71EE6 /* UserProfile.swift */; };
+		44DBF5842A509EE200A71EE6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5832A509EE200A71EE6 /* Menu.swift */; };
+		44DBF5862A509FC600A71EE6 /* FetchedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5852A509FC600A71EE6 /* FetchedObject.swift */; };
+		44DBF5882A50A00600A71EE6 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5872A50A00600A71EE6 /* FoodItem.swift */; };
+		44DBF58A2A50A04700A71EE6 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBF5892A50A04700A71EE6 /* DetailItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		44DBF5682A50976500A71EE6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		44DBF56B2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleLemonMetaCapstone.xcdatamodel; sourceTree = "<group>"; };
 		44DBF5762A509CE100A71EE6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		44DBF5782A509DA000A71EE6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		44DBF57A2A509DB200A71EE6 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		44DBF57C2A509DBA00A71EE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		44DBF57F2A509DE700A71EE6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		44DBF5812A509E3800A71EE6 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		44DBF5832A509EE200A71EE6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		44DBF5852A509FC600A71EE6 /* FetchedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObject.swift; sourceTree = "<group>"; };
+		44DBF5872A50A00600A71EE6 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		44DBF5892A50A04700A71EE6 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 		44DBF55E2A50976400A71EE6 /* LittleLemonMetaCapstone */ = {
 			isa = PBXGroup;
 			children = (
+				44DBF57E2A509DCB00A71EE6 /* Styles */,
 				44DBF5752A509CC500A71EE6 /* Persisnance */,
 				44DBF5742A509CBA00A71EE6 /* Models */,
 				44DBF5732A509CB200A71EE6 /* ViewModels */,
@@ -80,6 +99,13 @@
 			isa = PBXGroup;
 			children = (
 				44DBF5612A50976400A71EE6 /* Onboarding.swift */,
+				44DBF5782A509DA000A71EE6 /* Header.swift */,
+				44DBF57A2A509DB200A71EE6 /* Hero.swift */,
+				44DBF57C2A509DBA00A71EE6 /* Home.swift */,
+				44DBF5812A509E3800A71EE6 /* UserProfile.swift */,
+				44DBF5832A509EE200A71EE6 /* Menu.swift */,
+				44DBF5872A50A00600A71EE6 /* FoodItem.swift */,
+				44DBF5892A50A04700A71EE6 /* DetailItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,8 +130,17 @@
 			children = (
 				44DBF5682A50976500A71EE6 /* Persistence.swift */,
 				44DBF56A2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld */,
+				44DBF5852A509FC600A71EE6 /* FetchedObject.swift */,
 			);
 			path = Persisnance;
+			sourceTree = "<group>";
+		};
+		44DBF57E2A509DCB00A71EE6 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				44DBF57F2A509DE700A71EE6 /* Styles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +213,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DBF5862A509FC600A71EE6 /* FetchedObject.swift in Sources */,
+				44DBF5802A509DE700A71EE6 /* Styles.swift in Sources */,
 				44DBF5772A509CE100A71EE6 /* ViewModel.swift in Sources */,
+				44DBF5822A509E3800A71EE6 /* UserProfile.swift in Sources */,
 				44DBF5692A50976500A71EE6 /* Persistence.swift in Sources */,
+				44DBF58A2A50A04700A71EE6 /* DetailItem.swift in Sources */,
 				44DBF56C2A50976500A71EE6 /* LittleLemonMetaCapstone.xcdatamodeld in Sources */,
+				44DBF5842A509EE200A71EE6 /* Menu.swift in Sources */,
 				44DBF5622A50976400A71EE6 /* Onboarding.swift in Sources */,
+				44DBF57B2A509DB200A71EE6 /* Hero.swift in Sources */,
+				44DBF5882A50A00600A71EE6 /* FoodItem.swift in Sources */,
+				44DBF5792A509DA000A71EE6 /* Header.swift in Sources */,
+				44DBF57D2A509DBA00A71EE6 /* Home.swift in Sources */,
 				44DBF5602A50976400A71EE6 /* LittleLemonMetaCapstoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
